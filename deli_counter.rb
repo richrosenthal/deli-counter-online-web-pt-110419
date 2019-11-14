@@ -3,7 +3,7 @@
 katz_deli = []
 
 def line(array)
-  phrase = "The line is currently: "
+  phrase = "The line is currently:"
   count = 1
   if array.length == 0 
     puts "The line is currently empty."
