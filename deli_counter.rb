@@ -9,7 +9,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |people|
-      phrase << "#{count}"  + "." + " #{array[count-1]}"
+      phrase << " #{count}"  + "." + " #{array[count-1]}"
       count += 1
   end
   puts phrase
