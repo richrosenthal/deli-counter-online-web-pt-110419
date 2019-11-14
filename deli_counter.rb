@@ -9,7 +9,7 @@ def line(array)
     puts "There is nobody waiting to be served!"
   else
     array.each do |people|
-      phrase << count + "."
+      phrase << count + "." + " #{people} "
   end
 end
 
