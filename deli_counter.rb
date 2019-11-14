@@ -6,7 +6,7 @@ def line(array)
   phrase = "The line is currently: "
   count = 1
   if array.length == 0 
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   else
     array.each do |people|
       phrase << count + "." + " #{people} "
