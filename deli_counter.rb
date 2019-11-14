@@ -11,6 +11,7 @@ def line(array)
     array.each do |people|
       phrase << count + "." + " #{people} "
   end
+  phrase
 end
 
 def take_a_number(katz_deli, name)
