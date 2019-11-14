@@ -10,6 +10,7 @@ def line(array)
   else
     array.each do |people|
       phrase << count + "." + " #{people} "
+      count += 1
   end
   puts phrase
 end
