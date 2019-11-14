@@ -3,10 +3,13 @@
 katz_deli = []
 
 def line(array)
+  phrase = "The line is currently: "
+  count = 1
   if array.length == 0 
     puts "There is nobody waiting to be served!"
   else
-    puts "Welcome"
+    array.each do |people|
+      phrase << count + "."
   end
 end
 
