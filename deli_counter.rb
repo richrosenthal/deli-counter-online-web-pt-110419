@@ -28,7 +28,7 @@ def now_serving(katz_deli)
      "There is nobody waiting to be served!"
   else
       
-     "Currently serving #{katz_deli.first}."
+     "Currently serving #{katz_deli[0]}."
       
   end
 end
